@@ -62,7 +62,7 @@ function devalued({ prefix = 'devalued!', strict = false, rollup = {} } = {}) {
           if (key === __default__) code += `\nexport default ${__default__};`;
         });
 
-        console.log(code);
+        // console.log(code);
 
         return code;
       });
