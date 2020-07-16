@@ -1,0 +1,31 @@
+{
+  "name": "rollup-plugin-devalued-import",
+  "version": "1.0.0",
+  "description": "Partial and devalued import with Rollup",
+  "main": "index.js",
+  "repository": "https://github.com/wareset/rollup-plugin-devalued-import.git",
+  "author": "wareset <git@wareset.com>",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "devalue",
+    "import",
+    "partial",
+    "safe"
+  ],
+  "dependencies": {
+    "devalue": "^2.0.0",
+    "require-from-string": "^2.0.2"
+  },
+  "peerDependencies": {
+    "rollup": "^2.0.0"
+  }
+}
