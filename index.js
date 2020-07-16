@@ -73,7 +73,7 @@ function devalued({ prefix = 'devalued!', strict = false, rollup = {} } = {}) {
 
     resolveId(source, importer) {
       if (source.indexOf(prefix) === 0) {
-        source = source.slice(prefix.length);
+        source = source.slice(prefix.length).trim();
         const ID = source + '|' + importer;
         SAFES[ID] = [source, importer];
         return ID;
