@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-devalued-import",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Partial and devalued import with Rollup",
   "main": "index.js",
   "repository": "https://github.com/wareset/rollup-plugin-devalued-import.git",

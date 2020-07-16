@@ -218,6 +218,6 @@ Result:
 })();
 ```
 
-## LICENSE
+## Meta
 
-MIT
+[LICENSE (MIT)](/LICENSE)
